@@ -1,2 +1,9 @@
-# Curso-PIII-2024-
-Guía de estudio de la asignatura Programación III - Año 2024
+Guía de estudio de la asignatura Programación III
+=================================================
+
+Destinado a los estudiantes de la carrera Ing. en Telecomunicaciones de la Universidad Blas Pascal.
+
+
+:Profesor: Dr. Ing. César Osimani
+:Asignatura: Programación III
+:Fecha: Agosto a noviembre de 2024
