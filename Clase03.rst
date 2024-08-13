@@ -571,7 +571,7 @@ Ejercicio
 - Si desea descargar un archivo WAV, puede `extraerlo desde un video en Youtube <https://loader.to/es16/youtube-wav-converter.html>`_ .
 - Averiguar los bits del ADC, es decir, en cuántos bits está codificada cada muestra.
 - Reproducir el archivo .wav
-- Hacer todo lo anterior trabajando con archivos mp4. 
+- Hacer todo lo anterior trabajando con archivos mp3. 
 
 
 Práctico Nro. 1
