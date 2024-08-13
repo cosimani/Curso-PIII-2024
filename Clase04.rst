@@ -8,7 +8,7 @@ Clase 04 - PIII 2024
 
 
 
-Exponential Moving Average Filter (media móvil exponencial)
+Exponential Moving Average Filter (Media móvil exponencial)
 ===========================================================
 
 - La ecuación en diferencia para este filtro es la siguiente:
@@ -42,3 +42,26 @@ Ejercicio
 - Plotear la señal original y la filtrada superpuestas para notar el suavizado.
 
 
+
+Simple Moving Average Filter (Media móvil simple)
+==================================================
+
+- La ecuación en diferencia para este filtro es la siguiente:
+
+  y[n] = y[n-1] + (1 / W) * (x[n] - x[n-W])
+
+- ``W`` es el tamaño de la ventana deslizante.
+- ``y[n]`` es la salida actual.
+- ``y[n-1]`` es la salida anterior.
+- ``x[n]`` es la entrada actual.
+- ``x[n-W]`` es la entrada que sale de la ventana.
+
+- Este filtro actúa como un filtro pasabajos, suavizando la señal al promediar un número fijo de muestras y atenuar los cambios rápidos.
+
+Ejercicio
+=========
+
+- implementar este filtro con distintos tamaños de ventana.
+- Comparar con el Media móvil exponencial
+- Realizar un análisis del espectro de frecuencias.
+- Plotear la señal original y la filtrada superpuestas para notar el suavizado.
