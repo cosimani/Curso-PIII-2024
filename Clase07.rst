@@ -69,7 +69,7 @@ Ejercicio
 - Modificar parámetros como num_tones, base_freq, y steps para observar cómo cambia la percepción.
 - ¿Qué ocurre si cambia la tasa de muestreo o la duración de cada tono?
 - Implementar una versión que genera una escala descendente.
-- Graficas señal, espectro de frecuencias y espectograma.
+- Graficar señal, espectro de frecuencias y espectograma.
 
 
 
