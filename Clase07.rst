@@ -19,33 +19,31 @@ Tonos de Shepard
 .. code-block:: python
 
 	import numpy as np
-	import sounddevice as sd
+	import matplotlib.pyplot as plt
+	from IPython.display import Audio
 
 	def generate_shepard_tone(base_freq, num_tones, duration, sample_rate):
 	    t = np.linspace(0, duration, int(sample_rate * duration), endpoint=False)
 	    tone = np.zeros_like(t)
-	    
+
 	    for i in range(num_tones):
 	        freq = base_freq * (2 ** i)
 	        amplitude = np.sin(np.pi * i / num_tones) ** 2
 	        tone += amplitude * np.sin(2 * np.pi * freq * t)
-	    
+
 	    return tone
 
 	# Parámetros
-	base_freq = 440  # Frecuencia base en Hz (La estándar)
+	base_freq = 440  # Frecuencia base en Hz (Nota La)
 	num_tones = 6    # Número de tonos superpuestos
-	duration = 2.0   # Duración de cada tono en segundos
+	duration = 0.5   # Duración de cada tono en segundos
 	sample_rate = 44100  # Tasa de muestreo
 
 	# Generar el tono de Shepard
 	shepard_tone = generate_shepard_tone(base_freq, num_tones, duration, sample_rate)
 
 	# Reproducir el tono generado
-	sd.play(shepard_tone, sample_rate)
-	sd.wait()  # Esperar a que termine la reproducción
-
-
+	Audio(shepard_tone, rate=sample_rate)
 
 	def generate_shepard_scale(base_freq, num_tones, duration, sample_rate, steps):
 	    scale = []
@@ -55,14 +53,14 @@ Tonos de Shepard
 	    return np.concatenate(scale)
 
 	# Parámetros adicionales
-	steps = 12  # Número de pasos en la escala (equivalente a una octava)
+	steps = 100  # Número de pasos en la escala (equivalente a una octava)
 
 	# Generar la escala de Shepard
 	shepard_scale = generate_shepard_scale(base_freq, num_tones, duration, sample_rate, steps)
 
 	# Reproducir la escala
-	sd.play(shepard_scale, sample_rate)
-	sd.wait()
+	Audio(shepard_scale, rate=sample_rate)
+
 
 
 Ejercicio
@@ -85,7 +83,7 @@ Pulsación
 
 	import numpy as np
 	import matplotlib.pyplot as plt
-	import sounddevice as sd
+	from IPython.display import Audio
 
 	def generate_beats(freq1, freq2, duration, sample_rate):
 	    t = np.linspace(0, duration, int(sample_rate * duration), endpoint=False)
@@ -95,8 +93,8 @@ Pulsación
 	    return t, beats
 
 	# Parámetros
-	freq1 = 440  # Frecuencia del primer tono en Hz (La estándar)
-	freq2 = 442  # Frecuencia del segundo tono en Hz, ligeramente diferente
+	freq1 = 440  # Frecuencia del primer tono en Hz (Nota La)
+	freq2 = 442  # Frecuencia del segundo tono en Hz
 	duration = 5.0  # Duración de la señal en segundos
 	sample_rate = 44100  # Tasa de muestreo
 
@@ -111,8 +109,8 @@ Pulsación
 	plt.show()
 
 	# Reproducir la señal de beats
-	sd.play(beats_signal, sample_rate)
-	sd.wait()  # Esperar a que termine la reproducción
+	Audio(beats_signal, rate=sample_rate)
+
 
 
 
