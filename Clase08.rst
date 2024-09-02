@@ -16,16 +16,16 @@ Familias de microcontroladores Microchip, PIC, DSP, dsPIC
 ---------------------------------------------------------
 
 *PIC (Peripheral Interface Controller)*
-  - Microcontroladores de propósito general.
-  - Utilizados en aplicaciones donde se requiere control básico de entradas y salidas.
-  - Arquitectura sencilla, adecuada para tareas con sensores, motores y aplicaciones embebidas.
-  - Capacidad limitada en procesamiento.
+	- Microcontroladores de propósito general.
+	- Utilizados en aplicaciones donde se requiere control básico de entradas y salidas.
+	- Arquitectura sencilla, adecuada para tareas con sensores, motores y aplicaciones embebidas.
+	- Capacidad limitada en procesamiento.
 
 *DSP (Digital Signal Processor):*
-  - Procesadores especializados en el procesamiento rápido de señales digitales.
-  - Optimizados para operaciones matemáticas intensivas, como multiplicaciones y sumas en paralelo (MAC - Multiply-Accumulate).
-  - Utilizados en aplicaciones de telecomunicaciones, procesamiento de audio y video, reconocimiento de voz, etc.
-  - Arquitectura más compleja que un PIC y altamente eficiente para operaciones DSP.
+	- Procesadores especializados en el procesamiento rápido de señales digitales.
+	- Optimizados para operaciones matemáticas intensivas, como multiplicaciones y sumas en paralelo (MAC - Multiply-Accumulate).
+	- Utilizados en aplicaciones de telecomunicaciones, procesamiento de audio y video, reconocimiento de voz, etc.
+	- Arquitectura más compleja que un PIC y altamente eficiente para operaciones DSP.
 
 *MCU (MicroController Unit)*
 	- Microcontroladores clásicos
@@ -40,12 +40,9 @@ Familias de microcontroladores Microchip, PIC, DSP, dsPIC
 	- Híbrido entre PIC y DSP.
 	- Familias dsPIC30F y dsPIC33F
 	- Combina la facilidad de uso y el control de un PIC con las capacidades avanzadas de procesamiento de señales de un DSP.
-   - Ideal para aplicaciones embebidas que requieren procesamiento de señales en tiempo real.
-   - Utilizado en aplicaciones de telecomunicaciones y audio.
-	- Es accesible conseguir los siguientes: 
-	#. dsPIC30F4013 (40 pines)
- 	#. dsPIC30F2010 (28 pines)
-	#. dsPIC33FJ32MC202 (28 pines)
+	- Ideal para aplicaciones embebidas que requieren procesamiento de señales en tiempo real.
+	- Utilizado en aplicaciones de telecomunicaciones y audio.
+	- Es accesible conseguir los siguientes: dsPIC30F4013 (40 pines), dsPIC30F2010 (28 pines) y dsPIC33FJ32MC202 (28 pines)
 
 
 .. figure:: images/precio_rendimiento.png
