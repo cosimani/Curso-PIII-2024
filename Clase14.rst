@@ -36,8 +36,6 @@ Transformada de Fourier
 
 **Ejemplo:** Cálculo de FFT con funciones de la biblioteca de MikroC.
 
-- Video demostración: https://www.youtube.com/watch?v=n_HLYY41g1E
-
 .. code-block:: c
 
 
