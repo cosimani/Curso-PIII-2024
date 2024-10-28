@@ -13,18 +13,20 @@ Trabajo práctico 3: Monitoreo de condiciones en una finca de café usando IoT y
 Aplicar tecnologías IoT y técnicas de inteligencia artificial para monitorear y predecir condiciones ambientales en un cultivo de café, usando una arquitectura completa de recopilación, almacenamiento y análisis de datos.
 
 **Objetivos:**
+
 - Comprender la aplicación de IoT en la agricultura y su impacto en la toma de decisiones.
 - Implementar una conexión de datos en MySQL para almacenar y consultar datos recolectados de los sensores.
 - Utilizar herramientas de visualización y análisis de datos para generar reportes y realizar predicciones.
 
 **Actividades:**
-1. Presentación del flujo de datos: Sensores → TTN → Servidor → MySQL.
-2. Conexión a la base de datos MySQL y consulta de los datos históricos.
-3. Visualización de los datos (temperatura y humedad ambiente y del suelo).
-4. Investigar sobre Grafana y preparar un dashboard.
-5. Investigar sobre las opciones de TTN.
-6. Definir y entrenar una arquitectura de red neuronal MLP para realizar predicciones sobre lo que sucede en la finca.
-7. Realizar una predicción con una serie temporal para analizar el comportamiento cíclico de los sensores.
+
+- Presentación del flujo de datos: Sensores → TTN → Servidor → MySQL.
+- Conexión a la base de datos MySQL y consulta de los datos históricos.
+- Visualización de los datos (temperatura y humedad ambiente y del suelo).
+- Investigar sobre Grafana y preparar un dashboard.
+- Investigar sobre las opciones de TTN.
+- Definir y entrenar una arquitectura de red neuronal MLP para realizar predicciones sobre lo que sucede en la finca.
+- Realizar una predicción con una serie temporal para analizar el comportamiento cíclico de los sensores.
 
 **Por estudiante:**
 
